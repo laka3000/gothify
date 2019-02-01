@@ -1,8 +1,0 @@
-CHANGELOG.md
-Manifest.txt
-README.md
-Rakefile
-UnicodeData.txt
-lib/widen.rb
-lib/widen.rb.erb
-test/test_widen.rb

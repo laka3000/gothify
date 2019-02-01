@@ -1,48 +1,60 @@
-# Widen
+## Gothify
 
-* https://github.com/tenderlove/widen
+We have `String#upcase`, `String#downcase` for formal use
 
-## DESCRIPTION:
+We have also `String#widen` and `String#narrowen`for when we want to be `ＶＡＰＯＲ`, thanks to Aaron
 
-We already have `String#upcase`, `String#downcase`.  Now you can have
-`String#widen` and `String#narrowen`!
+Now we can be goth and code while blasting The Cure with `String#gothify`
 
-## FEATURES/PROBLEMS:
-
-* No features or problems
-
-## SYNOPSIS:
+### Usage:
 
 ```ruby
-'abcde'.widen         => 'ＡＢＣＤＥ'
-'ＡＢＣＤＥ'.narrowen => 'abcde'
+'tfw no goth gf'.gothify       => '𝔱𝔣𝔴 𝔫𝔬 𝔤𝔬𝔱𝔥 𝔤𝔣'
+
+'tfw no even gother gf'.gother => '𝖙𝖋𝖜 𝖓𝖔 𝖊𝖛𝖊𝖓 𝖌𝖔𝖙𝖍𝖊𝖗 𝖌𝖋'
 ```
 
-## INSTALL:
+You can bang your string as well
 
-* gem install widen
+```ruby
+my_string = 'tfw no goth gf'
 
-## LICENSE:
+my_string.gothify!
 
-(The MIT License)
+my_string => '𝔱𝔣𝔴 𝔫𝔬 𝔤𝔬𝔱𝔥 𝔤𝔣'
 
-Copyright (c) 2016 Aaron Patterson
+```
 
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-'Software'), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
+If you want to go back to your normal life, you can use `String#vanilla`
 
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
+```ruby
+'𝔱𝔣𝔴 𝔫𝔬 𝔤𝔬𝔱𝔥 𝔤𝔣'.vanilla => 'tfw no goth gf'
+```
 
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Some aliases:
+
+```ruby
+String#goth == String#gothify
+String#goth! == String#gothify!
+
+String#normie == String#vanilla
+String#normie! == String#vanilla!
+```
+
+### Setup:
+
+`gem install gothify`
+
+Or edit your `Gemfile`, add the following line
+
+`gem 'gothify', git: "https://github.com/laka3000/gothify"`
+
+Then run
+
+`bundle install`
+
+### Credits:
+
+This is a hardcoded-dumbed-down version of Widen, by Aaron (https://github.com/tenderlove/widen)
+
+Thanks to TenderLove for all your puns and knowledge, show him some love when using gothify

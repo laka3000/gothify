@@ -33,7 +33,7 @@ If you want to go back to your normal life, you can use `String#vanilla`
 
 Some aliases:
 
-```ruby
+```
 String#goth == String#gothify
 String#goth! == String#gothify!
 
@@ -52,6 +52,12 @@ Or edit your `Gemfile`, add the following line
 Then run
 
 `bundle install`
+
+Require it with
+
+```ruby
+require 'gothify'
+```
 
 ### Credits:
 

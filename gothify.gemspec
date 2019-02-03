@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'gothify'
-  spec.version       = '0.0.1'
+  spec.version       = '0.0.3'
   spec.authors       = ['Alexandre Karpinski Manikowski']
   spec.email         = ['alexandre.karpinski.m@gmail.com']
   spec.summary       = 'Makes you strings goth'
